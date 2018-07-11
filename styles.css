@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+body {
+	background-color: #BBBBBB;
+	font-family: 'Nunito Sans', sans-serif;
+	margin-top: 20px;
+}
+.app {
+	  display: block;
+	  width: 80%;
+	  min-width: 600px;
+	  max-width: 1200px;
+	  margin: 0 auto;
+	  background-color: #0a2263;
+	  color: #f7d794;
+	  border-radius: 10px;
+	  box-shadow: 2px 2px 5px #000;
+}
+.app .contactsList {
+	  margin: auto;
+	  padding-left: 30px;
+	}
+.app .contactItem {
+	  text-align: left;
+	  height: 120px;
+	  border-top: 2px solid white;
+	  margin: 5px;
+	  padding: 25px;
+}
+
+.app .contactForm {
+	display: block;
+	text-align: center;
+	margin: auto;
+	padding: 30px;
+	background-color: #4c6bbf;
+}
+.app .contactForm input {
+    width: 80%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.app button {
+	display: inline-block;
+	width: 20%;
+	background-color: #6fe56b;
+	border: 1px solid black;
+	border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
